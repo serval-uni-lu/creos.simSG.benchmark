@@ -2,7 +2,7 @@ package duc.propagation.bench;
 
 import duc.aintea.sg.Fuse;
 import duc.aintea.sg.Substation;
-import duc.aintea.sg.scenarios.ParaCabinetBuilder;
+import duc.aintea.sg.scenarios.ParaTransformerBuilder;
 import org.openjdk.jmh.annotations.*;
 
 import java.util.concurrent.TimeUnit;
@@ -20,7 +20,7 @@ public class ParaTransformerUncertain extends GenUncertain {
 
     @Override
     public Substation callBuilder(boolean[] fuseClosed, double[] consumptions) {
-        return ParaCabinetBuilder.build(fuseClosed, consumptions);
+        return ParaTransformerBuilder.build(fuseClosed, consumptions);
     }
 
     @Override
@@ -30,7 +30,7 @@ public class ParaTransformerUncertain extends GenUncertain {
 
     @Override
     public Fuse[] callFuseExtractor() {
-        return ParaCabinetBuilder.extractFuses(substation);
+        return ParaTransformerBuilder.extractFuses(substation);
     }
 
     @Override

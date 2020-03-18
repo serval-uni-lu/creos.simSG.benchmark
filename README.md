@@ -10,12 +10,26 @@ Data Uncertainty Propagation in smart grid - Pure Java - Benchmark
 
 # Run benchmarks:
 
-Suggested command line: `java -jar <PATH>/approximator-bench.jar duc.propagation.bench -foe true -gc true -rff results.csv`
+Before running them, better to check that they can be executed without any error. To perform this check, one can execute the following command: `java -jar <PATH>/approximator-bench.jar duc.propagation.bench -foe true -bm ss -f 0 -i 1 -t max -w 0 -wi 0`
 
-- `duc.propagation.bench`: run all benchmarks that are in the `duc.propagation.bench`Java package
-- `-foe true`: failed any error is encountered during the execution
+- `duc.propagation.bench`: runs all benchmarks that are in the `duc.propagation.bench` Java package
+- `-foe true`: fails if any error is encountered during the execution
+- `-bm ss`: sets benchmark to SingleShotTime mode (run once)
+- `-f 0`: disables forking mechanism
+- `-i 1`: executed only 1 measurement iteration
+- `-t max`: uses as many threads as possible (limited by the hardware of the machine)
+- `-w 0`: sets to 0s the time to spend warming up
+- `-wi 0`: sets the number of warm-up iterations to 0 (redundant with previous options?)
+
+
+
+Suggested command line: `java -jar <PATH>/approximator-bench.jar duc.propagation.bench -foe true -gc true -rff results.csv -t max`
+
+- `duc.propagation.bench`: runs all benchmarks that are in the `duc.propagation.bench` Java package
+- `-foe true`: fails if any error is encountered during the execution
 - `-gc true`: forces GC between each execution
-- `-rff results.csv`: export results in the `results.csv` CSV file
+- `-rff results.csv`: exports results in the `results.csv` CSV file
+- `-t max`: uses as many threads as possible (limited by the hardware of the machine)
 
 # Benchmarks
 
