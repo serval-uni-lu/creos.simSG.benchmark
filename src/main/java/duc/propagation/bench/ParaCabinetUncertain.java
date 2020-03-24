@@ -1,6 +1,5 @@
 package duc.propagation.bench;
 
-import duc.aintea.sg.Fuse;
 import duc.aintea.sg.Substation;
 import duc.aintea.sg.scenarios.ParaCabinetBuilder;
 import org.openjdk.jmh.annotations.*;
@@ -20,16 +19,12 @@ public class ParaCabinetUncertain extends GenUncertain{
     @Override
     public Substation callBuilder(boolean[] fuseClosed, double[] consumptions) {
         return ParaCabinetBuilder.build(fuseClosed, consumptions);
+
     }
 
     @Override
     public int getNbFuses() {
         return 8;
-    }
-
-    @Override
-    public Fuse[] callFuseExtractor() {
-        return ParaCabinetBuilder.extractFuses(substation);
     }
 
     @Override

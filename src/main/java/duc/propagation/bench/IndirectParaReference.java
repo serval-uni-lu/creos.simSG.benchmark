@@ -11,6 +11,6 @@ public class IndirectParaReference extends GenReference {
 
     @Override
     public Substation callBuilder(boolean[] fuseClosed, double[] consumptions) {
-        return IndirectParaBuilder.build(fuseClosed, consumptions);
+        return  IndirectParaBuilder.build(fuseClosed, consumptions);
     }
 }

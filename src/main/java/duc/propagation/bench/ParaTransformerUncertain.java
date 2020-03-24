@@ -1,6 +1,5 @@
 package duc.propagation.bench;
 
-import duc.aintea.sg.Fuse;
 import duc.aintea.sg.Substation;
 import duc.aintea.sg.scenarios.ParaTransformerBuilder;
 import org.openjdk.jmh.annotations.*;
@@ -21,16 +20,12 @@ public class ParaTransformerUncertain extends GenUncertain {
     @Override
     public Substation callBuilder(boolean[] fuseClosed, double[] consumptions) {
         return ParaTransformerBuilder.build(fuseClosed, consumptions);
+
     }
 
     @Override
     public int getNbFuses() {
         return 6;
-    }
-
-    @Override
-    public Fuse[] callFuseExtractor() {
-        return ParaTransformerBuilder.extractFuses(substation);
     }
 
     @Override

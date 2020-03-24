@@ -1,0 +1,495 @@
+{
+  "entities": [
+    {
+      "type": "substation",
+      "name": "Substation",
+      "fuses": [1, 36, 38, 39, 41]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 1",
+      "fuses": [2, 3]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 2",
+      "fuses": [4, 5, 7, 9, 11]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 3",
+      "fuses": [6, 8]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 4",
+      "fuses": [10, 12, 13, 15, 17, 19]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 5",
+      "fuses": [14, 16]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 6",
+      "fuses": [18]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 7",
+      "fuses": [20, 21, 25]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 8",
+      "fuses": [22, 23]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 9",
+      "fuses": [24]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 10",
+      "fuses": [26, 27, 29, 35, 37]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 11",
+      "fuses": [28, 30, 31, 33]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 12",
+      "fuses": [32]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 13",
+      "fuses": [34]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 14",
+      "fuses": [40, 43, 45]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 15",
+      "fuses": [42, 46, 47, 49]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 16",
+      "fuses": [44]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 17",
+      "fuses": [48, 50, 51, 53, 55, 57]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 18",
+      "fuses": [52]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 19",
+      "fuses": [54]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 20",
+      "fuses": [56, 58, 59, 61]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 21",
+      "fuses": [62]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 22",
+      "fuses": [60]
+    }
+  ],
+  "fuses": [
+    {
+      "id": 1,
+      "name": "Fuse 1"
+    },
+    {
+      "id": 2,
+      "name": "Fuse 2"
+    },
+    {
+      "id": 3,
+      "name": "Fuse 3"
+    },
+    {
+      "id": 4,
+      "name": "Fuse 4"
+    },
+    {
+      "id": 5,
+      "name": "Fuse 5"
+    },
+    {
+      "id": 6,
+      "name": "Fuse 6"
+    },
+    {
+      "id": 7,
+      "name": "Fuse 7"
+    },
+    {
+      "id": 8,
+      "name": "Fuse 8"
+    },
+    {
+      "id": 9,
+      "name": "Fuse 9"
+    },
+    {
+      "id": 10,
+      "name": "Fuse 10"
+    },
+    {
+      "id": 11,
+      "name": "Fuse 11"
+    },
+    {
+      "id": 12,
+      "name": "Fuse 12"
+    },
+    {
+      "id": 13,
+      "name": "Fuse 13"
+    },
+    {
+      "id": 14,
+      "name": "Fuse 14"
+    },
+    {
+      "id": 15,
+      "name": "Fuse 15"
+    },
+    {
+      "id": 16,
+      "name": "Fuse 16"
+    },
+    {
+      "id": 17,
+      "name": "Fuse 17"
+    },
+    {
+      "id": 18,
+      "name": "Fuse 18"
+    },
+    {
+      "id": 19,
+      "name": "Fuse 19"
+    },
+    {
+      "id": 20,
+      "name": "Fuse 20"
+    },
+    {
+      "id": 21,
+      "name": "Fuse 21"
+    },
+    {
+      "id": 22,
+      "name": "Fuse 22"
+    },
+    {
+      "id": 23,
+      "name": "Fuse 23"
+    },
+    {
+      "id": 24,
+      "name": "Fuse 24"
+    },
+    {
+      "id": 25,
+      "name": "Fuse 25"
+    },
+    {
+      "id": 26,
+      "name": "Fuse 26"
+    },
+    {
+      "id": 27,
+      "name": "Fuse 27"
+    },
+    {
+      "id": 28,
+      "name": "Fuse 28"
+    },
+    {
+      "id": 29,
+      "name": "Fuse 29"
+    },
+    {
+      "id": 30,
+      "name": "Fuse 30"
+    },
+    {
+      "id": 31,
+      "name": "Fuse 31"
+    },
+    {
+      "id": 32,
+      "name": "Fuse 32"
+    },
+    {
+      "id": 33,
+      "name": "Fuse 33"
+    },
+    {
+      "id": 34,
+      "name": "Fuse 34"
+    },
+    {
+      "id": 35,
+      "name": "Fuse 35"
+    },
+    {
+      "id": 36,
+      "name": "Fuse 36"
+    },
+    {
+      "id": 37,
+      "name": "Fuse 37"
+    },
+    {
+      "id": 38,
+      "name": "Fuse 38"
+    },
+    {
+      "id": 39,
+      "name": "Fuse 39"
+    },
+    {
+      "id": 40,
+      "name": "Fuse 40"
+    },
+    {
+      "id": 41,
+      "name": "Fuse 41"
+    },
+    {
+      "id": 42,
+      "name": "Fuse 42"
+    },
+    {
+      "id": 43,
+      "name": "Fuse 43"
+    },
+    {
+      "id": 44,
+      "name": "Fuse 44"
+    },
+    {
+      "id": 45,
+      "name": "Fuse 45"
+    },
+    {
+      "id": 46,
+      "name": "Fuse 46"
+    },
+    {
+      "id": 47,
+      "name": "Fuse 47"
+    },
+    {
+      "id": 48,
+      "name": "Fuse 48"
+    },
+    {
+      "id": 49,
+      "name": "Fuse 49"
+    },
+    {
+      "id": 50,
+      "name": "Fuse 50"
+    },
+    {
+      "id": 51,
+      "name": "Fuse 51"
+    },
+    {
+      "id": 52,
+      "name": "Fuse 52"
+    },
+    {
+      "id": 53,
+      "name": "Fuse 53"
+    },
+    {
+      "id": 54,
+      "name": "Fuse 54"
+    },
+    {
+      "id": 55,
+      "name": "Fuse 55"
+    },
+    {
+      "id": 56,
+      "name": "Fuse 56"
+    },
+    {
+      "id": 57,
+      "name": "Fuse 57"
+    },
+    {
+      "id": 58,
+      "name": "Fuse 58"
+    },
+    {
+      "id": 59,
+      "name": "Fuse 59"
+    },
+    {
+      "id": 60,
+      "name": "Fuse 60"
+    },
+    {
+      "id": 61,
+      "name": "Fuse 61"
+    },
+    {
+      "id": 62,
+      "name": "Fuse 62"
+    }
+  ],
+  "cables": [
+    {
+      "id": 1,
+      "fuses": [1, 2]
+    },
+    {
+      "id": 2,
+      "fuses": [3, 4]
+    },
+    {
+      "id": 3,
+      "fuses": [5, 6]
+    },
+    {
+      "id": 4,
+      "fuses": [7, 8]
+    },
+    {
+      "id": 5,
+      "fuses": [9, 10]
+    },
+    {
+      "id": 6,
+      "fuses": [11, 12]
+    },
+    {
+      "id": 7,
+      "fuses": [13, 14]
+    },
+    {
+      "id": 8,
+      "fuses": [15, 16]
+    },
+    {
+      "id": 9,
+      "fuses": [17, 18]
+    },
+    {
+      "id": 10,
+      "fuses": [19, 20]
+    },
+    {
+      "id": 11,
+      "fuses": [21, 22]
+    },
+    {
+      "id": 12,
+      "fuses": [23, 24]
+    },
+    {
+      "id": 13,
+      "fuses": [25, 26]
+    },
+    {
+      "id": 14,
+      "fuses": [27, 28]
+    },
+    {
+      "id": 15,
+      "fuses": [29, 30]
+    },
+    {
+      "id": 16,
+      "fuses": [31, 32]
+    },
+    {
+      "id": 17,
+      "fuses": [33, 34]
+    },
+    {
+      "id": 18,
+      "fuses": [35, 36]
+    },
+    {
+      "id": 19,
+      "fuses": [37, 38]
+    },
+    {
+      "id": 20,
+      "fuses": [39, 40]
+    },
+    {
+      "id": 21,
+      "fuses": [41, 42]
+    },
+    {
+      "id": 22,
+      "fuses": [43, 44]
+    },
+    {
+      "id": 23,
+      "fuses": [45, 46]
+    },
+    {
+      "id": 24,
+      "fuses": [47, 48]
+    },
+    {
+      "id": 25,
+      "fuses": [49, 50]
+    },
+    {
+      "id": 26,
+      "fuses": [51, 52]
+    },
+    {
+      "id": 27,
+      "fuses": [53, 54]
+    },
+    {
+      "id": 28,
+      "fuses": [55, 56]
+    },
+    {
+      "id": 29,
+      "fuses": [57, 58]
+    },
+    {
+      "id": 30,
+      "fuses": [59, 60]
+    },
+    {
+      "id": 31,
+      "fuses": [61, 62]
+    }
+  ]
+}

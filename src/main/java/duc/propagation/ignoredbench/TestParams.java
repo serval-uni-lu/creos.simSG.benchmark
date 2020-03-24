@@ -22,7 +22,6 @@ public class TestParams {
     @Setup(Level.Trial)
     public void setup() {
         other = nbUncFuses *2;
-        System.out.println("SetUp executed" + nbUncFuses);
     }
 
     @Benchmark

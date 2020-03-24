@@ -1,6 +1,5 @@
 package duc.propagation.bench;
 
-import duc.aintea.sg.Fuse;
 import duc.aintea.sg.Substation;
 import duc.aintea.sg.scenarios.IndirectParaBuilder;
 import org.openjdk.jmh.annotations.*;
@@ -19,17 +18,13 @@ public class IndirectParaUncertain extends GenUncertain {
 
     @Override
     public Substation callBuilder(boolean[] fuseClosed, double[] consumptions) {
-        return IndirectParaBuilder.build(fuseClosed, consumptions);
+        return  IndirectParaBuilder.build(fuseClosed, consumptions);
+
     }
 
     @Override
     public int getNbFuses() {
         return 10;
-    }
-
-    @Override
-    public Fuse[] callFuseExtractor() {
-        return IndirectParaBuilder.extractFuses(substation);
     }
 
     @Override
