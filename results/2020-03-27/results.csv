@@ -1,0 +1,7 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: nbUncFuses","Param: subName"
+"duc.propagation.bench.RC3SReference.referenceBench","avgt",8,50,0.307011,0.003698,"ms/op",,"Substation 1"
+"duc.propagation.bench.RC3SReference.referenceBench","avgt",8,50,0.098940,0.000125,"ms/op",,"Substation 2"
+"duc.propagation.bench.RC3SReference.referenceBench","avgt",8,50,0.041711,0.000248,"ms/op",,"Substation 3"
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,788.626182,13.305449,"ms/op",16,
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,238.228888,3.838890,"ms/op",16,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,51.748111,0.799812,"ms/op",16,"Substation 3"

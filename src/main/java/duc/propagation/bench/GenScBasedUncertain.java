@@ -6,7 +6,7 @@ import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.Level;
 import org.openjdk.jmh.annotations.Setup;
 
-public abstract class GenUncertain extends GenBench {
+public abstract class GenScBasedUncertain extends GenScBasedBench {
 
     public abstract int getNbUcFuses();
 
@@ -21,4 +21,5 @@ public abstract class GenUncertain extends GenBench {
     public void ucLoadApprox() {
         UncertainLoadApproximator.approximate(substation);
     }
+
 }

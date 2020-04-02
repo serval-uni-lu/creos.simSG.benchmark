@@ -1,7 +1,7 @@
 package duc.propagation.bench;
 
 
-import duc.aintea.loadapproximation.LoadApproximator;
+import duc.sg.java.loadapproximator.loadapproximation.LoadApproximator;
 import org.openjdk.jmh.annotations.*;
 
 import java.util.concurrent.TimeUnit;

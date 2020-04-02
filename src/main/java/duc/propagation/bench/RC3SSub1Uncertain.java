@@ -1,10 +1,7 @@
 package duc.propagation.bench;
 
-import duc.aintea.sg.Substation;
+import duc.sg.java.model.Substation;
 import org.openjdk.jmh.annotations.*;
-import org.openjdk.jmh.runner.Runner;
-import org.openjdk.jmh.runner.RunnerException;
-import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 import java.util.concurrent.TimeUnit;
 
@@ -28,28 +25,15 @@ public class RC3SSub1Uncertain extends GenUncertain {
     }
 
     @Override
-    public Substation callBuilder(boolean[] fuseClosed, double[] consumptions) {
+    public Substation callBuilder(duc.sg.java.model.State[] fuseClosed, double[] consumptions) {
         return RealCase3SubsHelper.getSubs("Substation 1", consumptions);
     }
+
 
     @Override
     public int getNbFuses() {
         return 30;
     }
 
-    public static void main(String[] args) throws RunnerException {
-        var opts = new OptionsBuilder()
-                .include(RC3SSub1Uncertain.class.getSimpleName())
-                .mode(Mode.SingleShotTime)
-                .shouldDoGC(true)
-                .shouldFailOnError(true)
-                .forks(0)
-                .warmupIterations(0)
-                .warmupBatchSize(1)
-                .warmupForks(1)
-                .measurementIterations(1)
-                .build();
-        new Runner(opts).run();
-    }
 
 }
