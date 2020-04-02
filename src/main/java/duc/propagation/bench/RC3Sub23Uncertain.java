@@ -1,6 +1,6 @@
 package duc.propagation.bench;
 
-import duc.aintea.sg.Substation;
+import duc.sg.java.model.Substation;
 import org.openjdk.jmh.annotations.*;
 
 import java.util.concurrent.TimeUnit;
@@ -26,7 +26,7 @@ public class RC3Sub23Uncertain extends GenUncertain {
     }
 
     @Override
-    public Substation callBuilder(boolean[] fuseClosed, double[] consumptions) {
+    public Substation callBuilder(duc.sg.java.model.State[] fuseClosed, double[] consumptions) {
         return RealCase3SubsHelper.getSubs(subName, consumptions);
     }
 

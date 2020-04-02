@@ -1,10 +1,12 @@
 package duc.propagation.bench;
 
-import duc.aintea.sg.Fuse;
+
+import duc.sg.java.model.Fuse;
 
 import java.util.Random;
 
 public class Utils {
+    private Utils(){}
 
     public static void makeRandFuseUc(Fuse[] init, int nb, Random random) {
         var chosen = new boolean[init.length];
@@ -18,7 +20,7 @@ public class Utils {
                     break;
                 }
             }
-            init[randIdx].getStatus().setConfAsProb(random.nextDouble() * 0.9);
+            init[randIdx].getStatus().setConfIsClosed(random.nextDouble() * 0.9);
         }
 
     }

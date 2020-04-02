@@ -1,17 +1,11 @@
 package duc.propagation.bench;
 
 
-import duc.aintea.sg.Substation;
-import duc.aintea.sg.scenarios.ParaCabinetBuilder;
+import duc.sg.java.scenarios.ScenarioName;
 
-public class ParaCabinetReference extends GenReference {
+public class ParaCabinetReference extends GenScBasedBench {
     @Override
-    public int getNbFuses() {
-        return 8;
-    }
-
-    @Override
-    public Substation callBuilder(boolean[] fuseClosed, double[] consumptions) {
-        return ParaCabinetBuilder.build(fuseClosed, consumptions);
+    public ScenarioName getSCName() {
+        return ScenarioName.PARA_CABINET;
     }
 }
