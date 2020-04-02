@@ -10,7 +10,7 @@ Data Uncertainty Propagation in smart grid - Pure Java - Benchmark
 
 # Run benchmarks:
 
-Before running them, better to check that they can be executed without any error. To perform this check, one can execute the following command: `java -jar target/approximator-bench.jar duc.propagation.bench -foe true -bm ss -f 0 -i 1 -t max -w 0 -wi 0`
+Before running them, better to check that they can be executed without any error. To perform this check, one can execute the following command: `java -jar target/approximator-bench.jar duc.propagation.bench -foe true -bm ss -f 0 -i 2 -t max -w 0 -wi 0`
 
 - `duc.propagation.bench`: runs all benchmarks that are in the `duc.propagation.bench` Java package
 - `-foe true`: fails if any error is encountered during the execution
@@ -46,8 +46,17 @@ Here to quantify the loss in performances of uncertain load approximation.
 ## 2020-03-27
 
 - **Command executed**: `java -Xmx16g -jar approximator-bench.jar duc.propagation.bench.RC3 -foe true -gc true -rff results.csv -t max -p nbUncFuses=16`
-- **Version**: 2020.04.0D-SNAPSHOT
-- **commit id**: 7d1560e2
+- **commit id (bench project)**: 7d1560e2
+- **Version DucPropagation-Java**: 2020.04.0D-SNAPSHOT
+- **commit id (DucPropagation-Java project)**: 7d1560e2
+
+
+## 2020-03-30
+
+- **Command executed**: `java -Xmx16g -jar approximator-bench.jar duc.propagation.bench -foe true -gc true -rff results.csv -t max -wf 3 -f 5`
+- **commit id (bench project)**: 7d1560e2
+- **Version DucPropagation-Java**: 2020.04.0D-SNAPSHOT
+- **commit id (DucPropagation-Java project)**: 7d1560e2
 
 # Change logs
 
