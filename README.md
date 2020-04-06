@@ -46,17 +46,32 @@ Here to quantify the loss in performances of uncertain load approximation.
 ## 2020-03-27
 
 - **Command executed**: `java -Xmx16g -jar approximator-bench.jar duc.propagation.bench.RC3 -foe true -gc true -rff results.csv -t max -p nbUncFuses=16`
-- **commit id (bench project)**: 7d1560e2
+- **commit id (bench project)**: ???
 - **Version DucPropagation-Java**: 2020.04.0D-SNAPSHOT
-- **commit id (DucPropagation-Java project)**: 7d1560e2
+- **commit id (DucPropagation-Java project)**: ???
 
 
 ## 2020-03-30
 
 - **Command executed**: `java -Xmx16g -jar approximator-bench.jar duc.propagation.bench -foe true -gc true -rff results.csv -t max -wf 3 -f 5`
-- **commit id (bench project)**: 7d1560e2
+- **commit id (bench project)**: ???
 - **Version DucPropagation-Java**: 2020.04.0D-SNAPSHOT
-- **commit id (DucPropagation-Java project)**: 7d1560e2
+- **commit id (DucPropagation-Java project)**: ???
+
+## 2020-04-04
+
+- **Command executed**: `java -Xmx16g -jar approximator-bench.jar duc.propagation.bench -foe true -gc true -rff results.csv -t max -wf 3 -f 5`
+- **commit id (bench project)**: 24acfd61 
+- **Version DucPropagation-Java**: 2020.04.0D-SNAPSHOT
+- **commit id (DucPropagation-Java project)**: fb41950a 
+
+## 2020-04-06
+
+- **Command executed**: `java -Xmx16g -jar approximator-bench.jar "duc\\.propagation\\.bench\\..*Reference\\.referenceBench" -e duc.propagation.bench.RC3SReference -foe true -gc true -rff results.csv -t max -wf 3 -f 5`
+- **commit id (bench project)**: 24acfd61 
+- **Version DucPropagation-Java**: 2020.04.0D-SNAPSHOT
+- **commit id (DucPropagation-Java project)**: fb41950a 
+
 
 # Change logs
 
