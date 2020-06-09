@@ -1,0 +1,90 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: nbUncFuses","Param: subName"
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,0.034137,0.000157,"ms/op",0,
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,0.059763,0.000149,"ms/op",1,
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,0.058934,0.000233,"ms/op",2,
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,0.107363,0.000882,"ms/op",3,
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,0.175984,0.000573,"ms/op",4,
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,0.175989,0.000774,"ms/op",5,
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,0.248291,0.001396,"ms/op",6,
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,0.394735,0.001950,"ms/op",7,
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,0.715343,0.002650,"ms/op",8,
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,1.139723,0.018023,"ms/op",9,
+"duc.propagation.bench.IndirectParaUncertain.ucLoadApprox","avgt",8,50,1.603925,0.003763,"ms/op",10,
+"duc.propagation.bench.ParaCabinetUncertain.ucLoadApprox","avgt",8,50,0.026715,0.000139,"ms/op",0,
+"duc.propagation.bench.ParaCabinetUncertain.ucLoadApprox","avgt",8,50,0.047298,0.000144,"ms/op",1,
+"duc.propagation.bench.ParaCabinetUncertain.ucLoadApprox","avgt",8,50,0.081823,0.000198,"ms/op",2,
+"duc.propagation.bench.ParaCabinetUncertain.ucLoadApprox","avgt",8,50,0.139778,0.001020,"ms/op",3,
+"duc.propagation.bench.ParaCabinetUncertain.ucLoadApprox","avgt",8,50,0.203635,0.001188,"ms/op",4,
+"duc.propagation.bench.ParaCabinetUncertain.ucLoadApprox","avgt",8,50,0.204138,0.000971,"ms/op",5,
+"duc.propagation.bench.ParaCabinetUncertain.ucLoadApprox","avgt",8,50,0.240528,0.001023,"ms/op",6,
+"duc.propagation.bench.ParaCabinetUncertain.ucLoadApprox","avgt",8,50,0.271558,0.001388,"ms/op",7,
+"duc.propagation.bench.ParaCabinetUncertain.ucLoadApprox","avgt",8,50,0.488672,0.001635,"ms/op",8,
+"duc.propagation.bench.ParaTransformerUncertain.ucLoadApprox","avgt",8,50,0.017432,0.000251,"ms/op",0,
+"duc.propagation.bench.ParaTransformerUncertain.ucLoadApprox","avgt",8,50,0.027477,0.000148,"ms/op",1,
+"duc.propagation.bench.ParaTransformerUncertain.ucLoadApprox","avgt",8,50,0.040445,0.000155,"ms/op",2,
+"duc.propagation.bench.ParaTransformerUncertain.ucLoadApprox","avgt",8,50,0.062471,0.000303,"ms/op",3,
+"duc.propagation.bench.ParaTransformerUncertain.ucLoadApprox","avgt",8,50,0.062837,0.000303,"ms/op",4,
+"duc.propagation.bench.ParaTransformerUncertain.ucLoadApprox","avgt",8,50,0.095118,0.000817,"ms/op",5,
+"duc.propagation.bench.ParaTransformerUncertain.ucLoadApprox","avgt",8,50,0.145411,0.000483,"ms/op",6,
+"duc.propagation.bench.RC3SReference.referenceBench","avgt",8,50,0.318983,0.000802,"ms/op",,"Substation 1"
+"duc.propagation.bench.RC3SReference.referenceBench","avgt",8,50,0.100335,0.001045,"ms/op",,"Substation 2"
+"duc.propagation.bench.RC3SReference.referenceBench","avgt",8,50,0.044040,0.000474,"ms/op",,"Substation 3"
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,0.345039,0.004391,"ms/op",0,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,0.695117,0.002411,"ms/op",1,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,1.304881,0.011306,"ms/op",2,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,2.301895,0.026222,"ms/op",3,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,4.338093,0.043170,"ms/op",4,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,7.791375,0.070284,"ms/op",5,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,9.069164,0.075289,"ms/op",6,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,16.732993,0.138623,"ms/op",7,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,31.520878,0.382742,"ms/op",8,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,57.863855,0.776650,"ms/op",9,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,85.461759,1.124765,"ms/op",10,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,84.448176,0.576807,"ms/op",11,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,110.884991,1.078049,"ms/op",12,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,208.379671,2.208135,"ms/op",13,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,396.730158,3.993564,"ms/op",14,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,395.927270,3.839046,"ms/op",15,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,787.873211,4.887454,"ms/op",16,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,1332.071224,17.397268,"ms/op",17,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,2617.098979,35.521850,"ms/op",18,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,2606.581644,35.949417,"ms/op",19,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,4594.557175,120.786328,"ms/op",20,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,7922.592949,59.715374,"ms/op",21,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,13393.265963,349.320385,"ms/op",22,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,28376.770960,762.520181,"ms/op",23,
+"duc.propagation.bench.RC3SSub1Uncertain.ucLoadApprox","avgt",8,50,70665.684113,1589.032357,"ms/op",24,
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.114197,0.000311,"ms/op",0,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.055181,0.000241,"ms/op",0,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.136055,0.000726,"ms/op",1,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.054035,0.000989,"ms/op",1,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.262278,0.001946,"ms/op",2,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.054271,0.000722,"ms/op",2,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.451155,0.005126,"ms/op",3,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.054082,0.000800,"ms/op",3,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.809076,0.007095,"ms/op",4,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.054517,0.000695,"ms/op",4,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,1.428441,0.011809,"ms/op",5,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.096928,0.000478,"ms/op",5,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,1.681911,0.014874,"ms/op",6,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.164877,0.002023,"ms/op",6,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,3.143021,0.038412,"ms/op",7,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.264998,0.000793,"ms/op",7,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,6.045416,0.090022,"ms/op",8,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.474698,0.003438,"ms/op",8,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,9.898921,0.056883,"ms/op",9,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,0.858481,0.010621,"ms/op",9,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,17.677255,0.145547,"ms/op",10,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,1.426739,0.011584,"ms/op",10,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,33.745773,0.365304,"ms/op",11,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,2.579525,0.020848,"ms/op",11,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,45.836983,0.606804,"ms/op",12,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,4.873847,0.097172,"ms/op",12,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,73.123865,0.924851,"ms/op",13,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,8.952510,0.080665,"ms/op",13,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,72.537109,0.496382,"ms/op",14,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,15.436427,0.048437,"ms/op",14,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,139.130222,1.583924,"ms/op",15,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,29.406150,0.251362,"ms/op",15,"Substation 3"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,244.597051,3.477288,"ms/op",16,"Substation 2"
+"duc.propagation.bench.RC3Sub23Uncertain.ucLoadApprox","avgt",8,50,53.204331,0.557027,"ms/op",16,"Substation 3"

@@ -68,7 +68,7 @@ Here to quantify the loss in performances of uncertain load approximation.
 ## 2020-04-06
 
 - **Command executed**: `java -Xmx16g -jar approximator-bench.jar "duc\\.propagation\\.bench\\..*Reference\\.referenceBench" -e duc.propagation.bench.RC3SReference -foe true -gc true -rff results.csv -t max -wf 3 -f 5`
-- **commit id (bench project)**: 24acfd61 
+- **commit id (bench project)**: ba79a983 
 - **Version DucPropagation-Java**: 2020.04.0D-SNAPSHOT
 - **commit id (DucPropagation-Java project)**: fb41950a 
 

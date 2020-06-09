@@ -2,7 +2,7 @@ package duc.propagation.external;
 
 import duc.propagation.bench.RealCase3SubsHelper;
 import duc.propagation.bench.Utils;
-import duc.sg.java.loadapproximator.loadapproximation.UncertainLoadApproximator;
+import duc.sg.java.loadapproximator.uncertain.naive.UncertainLoadApproximator;
 import duc.sg.java.model.Fuse;
 import duc.sg.java.model.Substation;
 
