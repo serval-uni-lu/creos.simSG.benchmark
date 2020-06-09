@@ -1,0 +1,4 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit"
+"duc.propagation.bench.IndirectParaReference.referenceBench","avgt",8,50,0.032794,0.000389,"ms/op"
+"duc.propagation.bench.ParaCabinetReference.referenceBench","avgt",8,50,0.026755,0.000109,"ms/op"
+"duc.propagation.bench.ParaTransformerReference.referenceBench","avgt",8,50,0.016641,0.000097,"ms/op"

@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "type": "substation",
+      "name": "Substation",
+      "fuses": [1]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 1",
+      "fuses": [2, 3, 5]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 2",
+      "fuses": [4, 6, 7]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 3",
+      "fuses": [8]
+    }
+  ],
+  "fuses": [
+    {
+      "id": 1,
+      "name": "Fuse 1"
+    },
+    {
+      "id": 2,
+      "name": "Fuse 2"
+    },
+    {
+      "id": 3,
+      "name": "Fuse 3"
+    },
+    {
+      "id": 4,
+      "name": "Fuse 4"
+    },
+    {
+      "id": 5,
+      "name": "Fuse 5"
+    },
+    {
+      "id": 6,
+      "name": "Fuse 6"
+    },
+    {
+      "id": 7,
+      "name": "Fuse 7"
+    },
+    {
+      "id": 8,
+      "name": "Fuse 8"
+    }
+  ],
+  "cables": [
+    {
+      "id": 1,
+      "fuses": [1, 2]
+    },
+    {
+      "id": 2,
+      "fuses": [3, 4]
+    },
+    {
+      "id": 3,
+      "fuses": [5, 6]
+    },
+    {
+      "id": 4,
+      "fuses": [7, 8]
+    }
+  ]
+}

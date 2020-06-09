@@ -32,7 +32,17 @@
         <!-- WARNING: local dependency. sntcreos/ducpropagationjava should be "install" first-->
         <dependency>
             <groupId>duc.sg.java</groupId>
-            <artifactId>loadapproximator</artifactId>
+            <artifactId>loadapproximator.certain</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>duc.sg.java</groupId>
+            <artifactId>loadapproximator.uncertain.bsrules</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>duc.sg.java</groupId>
+            <artifactId>loadapproximator.uncertain.naive</artifactId>
             <version>${duc.version}</version>
         </dependency>
         <dependency>
@@ -45,12 +55,17 @@
             <artifactId>importer.json</artifactId>
             <version>${duc.version}</version>
         </dependency>
+        <dependency>
+            <groupId>duc.sg.java</groupId>
+            <artifactId>powerflow</artifactId>
+            <version>${duc.version}</version>
+        </dependency>
     </dependencies>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jmh.version>1.23</jmh.version>
-        <javac.target>13</javac.target>
+        <javac.target>14</javac.target>
         <uberjar.name>approximator-bench</uberjar.name>
         <duc.version>2020.04.0D-SNAPSHOT</duc.version>
     </properties>
@@ -65,6 +80,7 @@
                     <compilerVersion>${javac.target}</compilerVersion>
                     <source>${javac.target}</source>
                     <target>${javac.target}</target>
+                    <compilerArgs>--enable-preview</compilerArgs>
                 </configuration>
             </plugin>
             <plugin>

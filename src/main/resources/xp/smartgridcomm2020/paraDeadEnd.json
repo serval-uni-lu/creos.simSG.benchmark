@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "substation",
+      "name": "Substation",
+      "fuses": [1, 3]
+    },
+    {
+      "type": "cabinet",
+      "name": "Cabinet 1",
+      "fuses": [2, 4]
+    }
+  ],
+  "fuses": [
+    {
+      "id": 1,
+      "name": "Fuse 1"
+    },
+    {
+      "id": 2,
+      "name": "Fuse 2"
+    },
+    {
+      "id": 3,
+      "name": "Fuse 3"
+    },
+    {
+      "id": 4,
+      "name": "Fuse 4"
+    }
+  ],
+  "cables": [
+    {
+      "id": 1,
+      "fuses": [1, 2]
+    },
+    {
+      "id": 2,
+      "fuses": [3, 4]
+    }
+  ]
+}
