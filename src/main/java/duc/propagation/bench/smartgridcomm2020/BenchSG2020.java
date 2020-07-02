@@ -1,7 +1,10 @@
 package duc.propagation.bench.smartgridcomm2020;
 
 import duc.propagation.bench.Utils;
+import duc.propagation.ignoredbench.experiments.smartgridcomm2020.old.GetAllConfiguration;
 import duc.sg.java.importer.json.JsonImporter;
+import duc.sg.java.loadapproximator.uncertain.bsrules.ConfigurationMatrix;
+import duc.sg.java.loadapproximator.uncertain.bsrules.UncertainLoadApproximator;
 import duc.sg.java.model.*;
 import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.annotations.*;
@@ -15,9 +18,9 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 @BenchmarkMode(Mode.AverageTime)
-@Fork(warmups = 5, value = 10)
-@Warmup(iterations = 5)
-@Measurement(iterations = 10)
+@Fork(warmups = 2, value = 3)
+@Warmup(iterations = 2)
+@Measurement(iterations = 10, time = 3, timeUnit = TimeUnit.SECONDS)
 @State(Scope.Thread)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @Timeout(time = 15, timeUnit = TimeUnit.MINUTES)
@@ -89,6 +92,16 @@ public abstract class BenchSG2020 {
     @Benchmark
     public void ucLoadApproxNaive() {
         duc.sg.java.loadapproximator.uncertain.naive.UncertainLoadApproximator.approximate(substation);
+    }
+
+    @Benchmark
+    public ConfigurationMatrix listValidConfOur() {
+        return UncertainLoadApproximator.getAllConfigurations(substation);
+    }
+
+    @Benchmark
+    public ConfigurationMatrix listValidConfRule1() {
+        return GetAllConfiguration.getAllConfiguration(substation);
     }
 
 

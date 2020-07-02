@@ -4,3 +4,7 @@
 target/
 
 ~$*.xlsx
+.Rproj.user
+.Rhistory
+*.Rproj
+.virtualenv
