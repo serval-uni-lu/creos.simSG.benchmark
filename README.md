@@ -78,6 +78,16 @@ These results come from several experiments we perform for a paper submission to
 The code executed for these experiments are in packages with a name that contains the `smartgridcomm2020` string.
 The results of those that also contains the `old` string do not appear on the submitted version of the paper.
 
+- **command executed**:
+    - scripts in `src/scripts/smartgridcomm2020` for the performance benchmarks or the `duc.propagation.ignoredbench.experiments.smartgridcomm2020.VarianceCableAllVsValid` class
+    - directly run the main classes in `duc.propagation.ignoredbench.experiments.smartgridcomm2020` Java package
+- **Version BencDucPropJava project**: 2020.07.01
+- **Version DucPropagation-Java**: 2020.07.01
+
+Results of all the becnhmarks are saved in the `results/2020-06` folder.
+For each execution, we kept the raw data (without being processed).
+They are either in a folder called `raw` or contain `raw` in their name.
+They have been processed mainly by R script but also with a Python script, saved also in the `results/2020-06` folder.
 
 # Change logs
 
@@ -87,3 +97,6 @@ The results of those that also contains the `old` string do not appear on the su
 - Variables changed among the different executions: the number of uncertain fuses, for 0 to all of them
 - All executions will be compared to the "reference" (children of GenReference) benchmark, i.e., execution of the certain load approximation
    
+## 2020.07.01
+
+- Benchmarks for the SmartGirdComm 2020 paper
