@@ -72,6 +72,12 @@ Here to quantify the loss in performances of uncertain load approximation.
 - **Version DucPropagation-Java**: 2020.04.0D-SNAPSHOT
 - **commit id (DucPropagation-Java project)**: fb41950a 
 
+## 2020-06
+
+These results come from several experiments we perform for a paper submission to the [IEEE SmartGridComm 2020](https://sgc2020.ieee-smartgridcomm.org/) conference.
+The code executed for these experiments are in packages with a name that contains the `smartgridcomm2020` string.
+The results of those that also contains the `old` string do not appear on the submitted version of the paper.
+
 
 # Change logs
 
