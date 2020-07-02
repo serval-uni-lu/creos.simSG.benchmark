@@ -3,7 +3,7 @@
 
     <groupId>duc.sg.java</groupId>
     <artifactId>loadapproximator.benchmarks</artifactId>
-    <version>2020.07.01</version>
+    <version>2020.09.DD-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>JMH benchmark: SG Load Approximation</name>
@@ -169,7 +169,7 @@
 
     <scm>
         <developerConnection>scm:git:git@bitbucket.org:sntcreos/benchducpropjava.git</developerConnection>
-      <tag>2020.07.01</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
