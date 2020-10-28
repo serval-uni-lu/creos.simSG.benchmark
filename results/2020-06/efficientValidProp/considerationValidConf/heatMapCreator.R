@@ -3,8 +3,8 @@
 # library("reshape")                             
 # library("ggplot2")
 
-values <- read.csv(file = "perf-uload-approx-bsrule.csv", header = TRUE)
-# values <- read.csv(file = "perf-uload-approx-naive.csv", header = TRUE)
+# values <- read.csv(file = "perf-uload-approx-bsrule.csv", header = TRUE)
+values <- read.csv(file = "perf-uload-approx-naive.csv", header = TRUE)
 
 
 matrixValue <- data.matrix(values)
